@@ -1,2 +1,2 @@
-Leetcode solutions in Java
+Leetcode/Lintcode solutions in Java
 
