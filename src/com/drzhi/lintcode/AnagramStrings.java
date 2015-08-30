@@ -18,7 +18,6 @@ public class AnagramStrings {
         if (s.length() != t.length()) {
             return false;
         }
-
         int[] count = new int[256];
         int index;
         for (int i = 0; i < s.length(); ++i) {

@@ -1,13 +1,16 @@
 package com.drzhi.leetcode;
 
-import com.drzhi.lintcode.AnagramStrings;
+import com.drzhi.lintcode.ProductOfArrayExcludeItself;
+import com.drzhi.lintcode.StringToInteger;
+
+import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
-        AnagramStrings anagramStrings = new AnagramStrings();
-        boolean isAnagram = anagramStrings.anagram("ab", "ba");
-        System.out.println(isAnagram);
+        ProductOfArrayExcludeItself productOfArrayExcludeItself = new ProductOfArrayExcludeItself();
+        ArrayList<Integer> integers = new ArrayList<>(1);
+        integers.add(0);
+        System.out.println(productOfArrayExcludeItself.productExcludeItself(integers));
     }
 }
