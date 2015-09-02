@@ -8,7 +8,7 @@ package com.drzhi.lintcode;
 public class Sqrt {
     /**
      * @param x: An integer
-     * @return: The sqrt of x
+     * @return The sqrt of x
      */
     public int sqrt(int x) {
         if (x <= 1) {
